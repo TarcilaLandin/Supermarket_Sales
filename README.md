@@ -9,6 +9,9 @@ Dashboard para análise de métricas e vendas de um supermercado, feito com Pyth
 - Filtrar dados por mês para uma análise mais detalhada
 - Exibir gráficos de faturamento por filial, tipo de pagamento e avaliações médias
 
+## 💻 Projeto
+<a href="https://supermarketsales-hkvjyfedyzbamvyxtze9dk.streamlit.app" target="_blank">Ver o projeto em tempo real</a>
+
 ## 👨‍💻 Tecnologias Utilizadas
 
 Utilizando apenas **PYTHON** e as bibliotecas:
