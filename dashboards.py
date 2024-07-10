@@ -10,6 +10,8 @@ st.set_page_config(layout="wide")
 #Desempenho das forma de pagamento…
 #Como estão as avaliações das filiais?
 
+st.title('Supermarket Sales')
+
 df = pd.read_csv("supermarket_sales.csv", sep=";", decimal=",")
 df["Date"] = pd.to_datetime(df["Date"])
 df=df.sort_values("Date")
@@ -46,4 +48,3 @@ city_total = df_filtered.groupby("City")[["Rating"]].mean().reset_index()
 fig_rating = px.bar(df_filtered, y="Rating", x="City",
                    title="Average Rating")
 col5.plotly_chart(fig_rating, use_container_width=True)
-
